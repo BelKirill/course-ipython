@@ -1,2 +1,2 @@
 # course-ipython
-Course for IPython
+Course material for a basic IPython course I'd like to present.

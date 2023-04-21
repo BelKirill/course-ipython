@@ -1,0 +1,36 @@
+Type "gum format '# Display documentation using IPython'" 
+Sleep 500ms  
+Enter
+Sleep 2s
+
+Type "ipython"
+Sleep 500ms
+Enter
+Sleep 2s
+
+Type "def return_x(x: int) -> int:"
+Enter
+Type "return x"
+Enter
+Enter
+Sleep 2s
+
+Type "clone = return_x"
+Sleep 500ms
+Enter
+Sleep 2s
+
+Type "some_int = 6"
+Sleep 500ms
+Enter
+Sleep 2s
+
+Type "%whos"
+Sleep 500ms
+Enter
+Sleep 15s
+
+Type "exit"
+Enter
+Sleep 1s
+

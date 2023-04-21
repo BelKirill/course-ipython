@@ -1,0 +1,39 @@
+Type "gum format '# Display documentation using IPython'" 
+Enter
+Sleep 2s
+
+Type "ipython"
+Enter
+Sleep 2s
+
+Type "%edit"
+Enter
+Sleep 2s
+
+Type "i"
+Type "def return_x(x: int) -> int:"
+Enter
+Type "return x"
+Enter
+Enter
+Sleep 2s
+Escape
+Type ":wq"
+Enter
+Sleep 2s
+
+Type "%edit -p"
+Enter
+Sleep 5s
+Type ":q"
+Enter
+Sleep 2s
+
+Type "%whos"
+Enter
+Sleep 15s
+
+Type "exit"
+Enter
+Sleep 2s
+

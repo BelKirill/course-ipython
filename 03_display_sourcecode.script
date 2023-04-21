@@ -1,0 +1,24 @@
+Type "gum format '# Display Source code using IPython'" 
+Sleep 500ms  
+Enter
+Sleep 2s
+
+Type "ipython"
+Sleep 500ms
+Enter
+Sleep 2s
+
+Type "import pprint"
+Sleep 500ms
+Enter
+Sleep 500ms
+
+Type "pprint.pprint??"
+Sleep 500ms
+Enter
+Sleep 15s
+
+Type "exit"
+Enter
+Sleep 1s
+

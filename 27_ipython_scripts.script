@@ -1,0 +1,12 @@
+Type "gum format '# Display documentation using IPython'" 
+Enter
+Sleep 2s
+
+Type "cat 27_ipython_scripts.ipy"
+Enter
+Sleep 5s
+
+Type "ipython 27_ipython_scripts.ipy"
+Enter
+Sleep 15s
+

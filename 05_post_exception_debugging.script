@@ -1,0 +1,54 @@
+Type "gum format '# Debug after an exception using IPython'" 
+Sleep 500ms  
+Enter
+Sleep 2s
+
+Type "ipython"
+Sleep 500ms
+Enter
+Sleep 2s
+
+Type "def division_product(a: int, b: int) -> float:"
+Sleep 500ms
+Enter
+Type "return a / b"
+Sleep 500ms
+Enter
+Sleep 500ms
+Enter
+Sleep 500ms
+
+Type "def faulty_division(x: int) -> float:"
+Sleep 500ms
+Enter
+Type "return division_product(x, 0)"
+Sleep 500ms
+Enter
+Sleep 500ms
+Enter
+Sleep 500ms
+
+Type "print(faulty_division(5))"
+Sleep 500ms
+Enter
+Sleep 1s
+
+Type "%debug"
+Sleep 500ms
+Enter
+Sleep 3s
+
+Type "p a"
+Sleep 500ms
+Enter
+Sleep 1s
+
+Type "p b"
+Sleep 500ms
+Enter
+Sleep 15s
+
+Type "exit"
+Enter
+Sleep 1s
+

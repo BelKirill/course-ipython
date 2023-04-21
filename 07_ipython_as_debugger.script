@@ -1,0 +1,34 @@
+Type "gum format '# Use IPython as debugger'" 
+Sleep 500ms  
+Enter
+Sleep 2s
+
+Type "cat 07_ipython_as_debugger.py"
+Sleep 500ms
+Enter
+Sleep 5s
+
+Type "echo $PYTHONBREAKPOINT"
+Sleep 500ms
+Enter
+Sleep 2s
+
+Type "python3 07_ipython_as_debugger.py"
+Sleep 500ms
+Enter
+Sleep 2s
+
+Type "p a"
+Sleep 500ms
+Enter
+Sleep 1s
+
+Type "p b"
+Sleep 500ms
+Enter
+Sleep 15s
+
+Type "exit"
+Enter
+Sleep 5s
+

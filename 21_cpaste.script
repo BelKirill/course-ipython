@@ -1,0 +1,36 @@
+Type "gum format '# Display documentation using IPython'" 
+Enter
+Sleep 2s
+
+Type "cat 21_cpaste.py"
+Enter
+Sleep 5s
+
+Type "pbcopy < 21_cpaste.py"
+Enter
+Sleep 5s
+
+Type "ipython"
+Enter
+Sleep 2s
+
+Type "%cpaste"
+Enter
+Sleep 500ms
+
+Type ">>> def donothing(x):"
+Enter
+Type "...     return x"
+Enter
+Type "--"
+Enter
+Sleep 2s
+
+Type "donothing(21)"
+Enter
+Sleep 15s
+
+Type "exit"
+Enter
+Sleep 1s
+

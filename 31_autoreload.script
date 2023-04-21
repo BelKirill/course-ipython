@@ -1,0 +1,20 @@
+Type "gum format '# Display documentation using IPython'" 
+Enter
+Sleep 2s
+
+Type "ipython"
+Enter
+Sleep 2s
+
+Type "cat 26_use_shell_commands.script"
+Enter
+Sleep 10s
+
+Type "nvim"
+Enter
+Sleep 2s
+
+Type "!nvim"
+Enter
+Sleep 10s
+

@@ -1,0 +1,29 @@
+Type "gum format '# Search module contents using IPython'" 
+Sleep 500ms  
+Enter
+Sleep 2s
+
+Type "ipython"
+Sleep 500ms
+Enter
+Sleep 2s
+
+Type "import argparse"
+Sleep 500ms
+Enter
+Sleep 500ms
+
+Type "argparse.*Arg*?"
+Sleep 500ms
+Enter
+Sleep 5s
+
+Type "argparse.*Parse*?"
+Sleep 500ms
+Enter
+Sleep 10s
+
+Type "exit"
+Enter
+Sleep 1s
+

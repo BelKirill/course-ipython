@@ -1,0 +1,11 @@
+Set Shell 'zsh'
+
+Set FontFamily 'Monofur Nerd Font Mono'
+Set FontSize 18
+
+Set Width 840
+Set Height 840
+Set Padding 20
+
+Set Theme 'Gruvbox Dark'
+
